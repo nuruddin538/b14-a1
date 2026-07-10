@@ -176,3 +176,128 @@ body {
   color: #6b7280;
   line-height: 1.6;
 }
+/* Pricing Section */
+.pricing {
+  padding: 80px 20px;
+  background: #f8fafc;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Heading */
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #111827;
+}
+.section-subtitle {
+  text-align: center;
+  color: #6b7280;
+  margin-top: 12px;
+  margin-bottom: 48px;
+  font-size: 14px;
+}
+/* Grid */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+/* Card */
+.pricing-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+}
+/* Featured Card */
+.featured {
+  background: #061a33;
+  color: #ffffff;
+}
+.featured .plan-name,
+.featured .price-info,
+.featured .features li {
+  color: #d1d5db;
+}
+.featured hr {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Plan Name */
+.plan-name {
+  font-size: 12px;
+  font-weight: 700;
+  color: #6b7280;
+  letter-spacing: 1px;
+}
+/* Price */
+.price {
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.price-info {
+  color: #6b7280;
+  font-size: 14px;
+  margin-top: 5px;
+}
+hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 24px 0;
+}
+
+/* Features */
+.features {
+  list-style: none;
+  flex-grow: 1;
+}
+.features li {
+  margin-bottom: 16px;
+  color: #374151;
+  font-size: 15px;
+  position: relative;
+  padding-left: 18px;
+}
+.features li::before {
+  content: "▪";
+  color: #2563eb;
+  position: absolute;
+  left: 0;
+}
+
+/* Buttons */
+.btn-outline,
+.btn-primary {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.btn-outline {
+  background: transparent;
+  border: 1px solid #2563eb;
+  color: #2563eb;
+}
+
+.btn-outline:hover {
+  background: #2563eb;
+  color: #ffffff;
+}
+.btn-primary {
+  background: #2563eb;
+  border: none;
+  color: #ffffff;
+}
+.btn-primary:hover {
+  background: #1d4ed8;
+}
