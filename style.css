@@ -53,3 +53,54 @@ body {
 .btn:hover {
   background: #1d4ed8;
 }
+
+/* Hero Section */
+
+.hero {
+  height: calc(100vh - 80px);
+  background: url("./assets/banner.jpg") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Dark Overlay */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Content */
+.hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  max-width: 900px;
+  padding: 20px;
+}
+.hero-content h1 {
+  font-size: 72px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  line-height: 1.2;
+}
+.hero-content em {
+  font-style: italic;
+}
+.hero-content p {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.7;
+  color: #e5e7eb;
+}
+.hero-btn {
+  display: inline-block;
+  margin-top: 45px;
+}
